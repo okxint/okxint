@@ -1,6 +1,6 @@
 ### Hey, I'm Ashwin
 
-Ex-PwC consultant turned product builder. MBA from [IIM Kozhikode](https://www.iimk.ac.in/), B.Tech from [NIT Trichy](https://www.nitt.edu/). I build AI-powered tools and write about tech, business, and culture.
+Ex-PwC tech strategy consultant turned product builder. MBA from [IIM Kozhikode](https://www.iimk.ac.in/), B.Tech from [NIT Trichy](https://www.nitt.edu/). I build AI-powered tools and write about tech, business, and culture.
 
 #### 🛠️ What I'm Building
 
