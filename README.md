@@ -1,46 +1,41 @@
 ### Hey, I'm Ashwin
 
-Ex-PwC tech strategy consultant turned product builder. MBA from [IIM Kozhikode](https://www.iimk.ac.in/), B.Tech from [NIT Trichy](https://www.nitt.edu/). I build AI-powered tools and write about tech, business, and culture.
+I build AI-powered products and write about what's actually happening in tech. MBA from [IIM Kozhikode](https://www.iimk.ac.in/), B.Tech from [NIT Trichy](https://www.nitt.edu/), ex-PwC US Advisory.
 
-#### 🛠️ What I'm Building
+---
 
-**[Product Teardown](https://pm-teardown.vercel.app)** - Enter any product name, get a 5,000-word PM-grade analysis with user journey mapping, drop-off analysis, and prioritized solutions. Scrapes 8+ sources in parallel.
-`Next.js` `TypeScript` `Tailwind CSS` `Streaming API`
+#### What I've Shipped
 
-**[twitter-agent](https://github.com/okxint/twitter-agent)** - AI-powered Reddit-to-Twitter content pipeline. Scrapes trending discussions, generates original tweets, posts with scheduling and thread support.
-`TypeScript` `Node.js` `AI Agents`
+**[twitter-agent](https://github.com/okxint/twitter-agent)** — AI content pipeline that scrapes Reddit, synthesizes trending discussions through Claude API, and posts original tweets on schedule. End-to-end: data collection → generation → publishing.
+`TypeScript` `Node.js` `Claude API` `Prompt Engineering`
 
-#### 💼 Work Experience
+**[Product Teardown](https://pm-teardown.vercel.app)** — Drop in a product name, get a 5,000-word PM-grade analysis. Scrapes 8+ sources in parallel, maps user journeys, identifies drop-offs, and prioritizes solutions with RICE scoring.
+`Next.js` `TypeScript` `RAG` `Streaming API`
 
-**[PwC US Advisory](https://www.pwc.com/)** - Tech strategy and cost optimization for Fortune 500 clients. Estimated $5.2M+ in savings across sourcing, ITSM automation, and IT infrastructure engagements.
+**[The Daily Signal](https://github.com/okxint/today-i-learned)** — In-depth analysis publication covering AI, crypto, business, sports, and culture. Each piece synthesizes 5-25 sources with an original take. No summaries, no fluff.
 
-**[Wipro](https://www.wipro.com/)** - Built a chatbot used by 100K+ employees, developed an exception reporting algorithm at 95% accuracy, and shipped an ML anomaly detection model. Top 5% appraisal among 10K+ people.
+Recent pieces:
+- [Anthropic Sued the Pentagon](https://github.com/okxint/today-i-learned/blob/main/ai/anthropic-sues-pentagon.md) — the most important AI governance story of 2026
+- [Apple Outsourced Siri's Brain to Google](https://github.com/okxint/today-i-learned/blob/main/ai/apple-siri-gemini-relaunch.md) — what it means when Apple gives up on in-house AI
 
-**[Polygon (MATIC)](https://polygon.technology/)** - Community growth and DeFi engagement strategy for the Southeast Asia ecosystem.
+---
 
-#### ✍️ Writing
+#### Open Source Contributions
 
-I publish **[The Daily Signal](https://github.com/okxint/today-i-learned)** - in-depth analysis across AI, crypto, world politics, startups, sports, and music. Each piece synthesizes 10-25 sources with an original take. No summaries, no fluff.
+[Directus](https://github.com/directus/directus) · [Immich](https://github.com/immich-app/immich) · [Next.js](https://github.com/vercel/next.js) · [Dify](https://github.com/langgenius/dify) · [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) · [PostHog](https://github.com/PostHog/posthog) · [shadcn/ui](https://github.com/shadcn-ui/ui) · [wasp-lang](https://github.com/wasp-lang/wasp)
 
-`AI` `Crypto & DeFi` `Startups & Investing` `World Politics` `Soccer & F1` `Music` `Emerging Tech` `Travel`
+---
 
-Recent deep dives:
-- [Anthropic Sued the Pentagon - Most Important AI Story of 2026](https://github.com/okxint/today-i-learned/blob/main/ai/anthropic-sues-pentagon.md) (25 sources)
-- [Apple Outsourced Siri's Brain to Google](https://github.com/okxint/today-i-learned/blob/main/ai/apple-siri-gemini-relaunch.md) (7 sources)
+#### Work
 
-#### 🌐 Open Source
+**PwC US Advisory** — Tech strategy and cost optimization for Fortune 500 clients. $5.2M+ in estimated savings across sourcing, ITSM automation, and IT infrastructure.
 
-| Project | Stars | Contribution |
-|---------|-------|-------------|
-| [Actual Budget](https://github.com/actualbudget/actual) | 25K+ | Fixed transaction merge dropping schedule links |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 175K+ | Fixed agent name persistence + race condition |
-| [PostHog](https://github.com/PostHog/posthog) | 25K+ | Clarified cohort filter behavior for CDP destinations |
-| [Plane](https://github.com/makeplane/plane) | 46K+ | Strip whitespace from instance config values |
+**Wipro** — Built a chatbot used by 100K+ employees. Shipped an ML anomaly detection model and an exception reporting algorithm at 95% accuracy. Top 5% appraisal among 10K+ people.
 
-#### 🧠 Product Thinking
+**Polygon (MATIC)** — Community growth and DeFi engagement strategy for Southeast Asia.
 
-I come from the consulting side - scoping problems, sizing markets, building business cases for CXOs. I work with RICE scoring, JTBD, North Star metrics, user journey mapping, and OKR setting. My [product teardown tool](https://pm-teardown.vercel.app) codifies this entire workflow.
+---
 
-#### ⚡ Tech
+#### Stack
 
-`TypeScript` `Python` `Next.js` `React` `Node.js` `Tailwind CSS` `Power BI` `SQL` `Tableau`
+`TypeScript` `Python` `React` `Next.js` `Node.js` `Claude API` `RAG` `Prompt Engineering` `SQL` `Tailwind CSS`
