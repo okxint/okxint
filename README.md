@@ -11,8 +11,8 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 #### What I'm Working On
 
 - Scaling **[The Daily Signal](https://github.com/okxint/today-i-learned)** — in-depth analysis published every other day, weekly Substack roundups
-- Contributing to **Directus**, **Immich**, **Dify**, and **Vercel AI SDK** — 5 merged PRs + 12 open PRs in March alone
-- Building **[HERZOG](https://github.com/okxint/herzog-leather)** — 300-product e-commerce platform for a luxury leather goods brand
+- Contributing to **PostHog**, **Immich**, **Actual Budget**, and **wasp-lang** — 8 merged PRs + 3 open across 7 repos
+- Building **[twitter-agent](https://github.com/okxint/twitter-agent)** — AI content pipeline: Reddit scraping, synthesis, automated publishing
 
 ---
 
@@ -24,7 +24,7 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 **[twitter-agent](https://github.com/okxint/twitter-agent)** — AI content pipeline that scrapes Reddit, synthesizes trending discussions through Claude API, and posts original tweets on schedule. End-to-end: data collection → generation → publishing.
 `TypeScript` `Node.js` `Claude API` `Prompt Engineering`
 
-**[The Daily Signal](https://github.com/okxint/today-i-learned)** — In-depth analysis publication covering AI, crypto, business, F1, and culture. Each piece synthesizes 5-12 sources with an original take. No summaries, no fluff.
+**[The Daily Signal](https://github.com/okxint/today-i-learned)** — In-depth analysis publication covering AI, crypto, business, F1, soccer, space, and product management. Each piece synthesizes 5-12 sources with an original take. No summaries, no fluff.
 
 Recent pieces:
 - [Wall Street Correction & the Stagflation Question](https://github.com/okxint/today-i-learned/blob/main/business/wall-street-correction-iran-oil-shock-2026.md) — Iran, oil at $110, and the Fed's no-win scenario
@@ -37,13 +37,15 @@ Recent pieces:
 
 Shipped code to production at:
 
-- **[Directus](https://github.com/directus/directus/pull/26906)** — Deduplicated aggregate count requests on content navigation (2 approvals, 77 checks green)
-- **[Immich](https://github.com/immich-app/immich/pull/26903)** — Substring matching for person name search
-- **[Vercel AI SDK](https://github.com/vercel/ai/pull/13878)** — Fixed O(n) string copies in streamText output
-- **[Dify](https://github.com/langgenius/dify/pull/33772)** — Resolved React lint warnings for leaked timeouts and lazy state init
-- **[PostHog](https://github.com/PostHog/posthog/pull/50513)** — Clarified cohort filter docs for CDP destinations
+- **[PostHog](https://github.com/PostHog/posthog)** — Cohort filter copy fix, is_set null values bug fix, between/datepicker UI fix (3 open PRs)
+- **[Immich](https://github.com/immich-app/immich)** — Substring matching for person name search (merged)
+- **[Actual Budget](https://github.com/actualbudget/actual)** — Preserving schedule link when merging transactions (merged)
+- **[wasp-lang](https://github.com/wasp-lang/wasp)** — Auth pills border style fix (merged)
+- **[melonJS](https://github.com/melonjs/melonJS)** — Turbo dependency bump (merged)
+- **[llm-d-prism](https://github.com/llm-d/llm-d-prism)** — Documentation fix (merged)
+- **[KanaDojo](https://github.com/lingdojo/kana-dojo)** — Trivia question and Japanese proverb additions (2 merged)
 
-Also contributing to: [Next.js](https://github.com/vercel/next.js) · [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) · [shadcn/ui](https://github.com/shadcn-ui/ui) · [Plane](https://github.com/makeplane/plane) · [wasp-lang](https://github.com/wasp-lang/wasp) · [lmnr](https://github.com/lmnr-ai/lmnr)
+Also contributed to: [Directus](https://github.com/directus/directus) · [Vercel AI SDK](https://github.com/vercel/ai) · [Dify](https://github.com/langgenius/dify) · [Plane](https://github.com/makeplane/plane)
 
 ---
 
