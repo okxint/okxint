@@ -4,7 +4,7 @@ Product Manager who builds. I ship AI tools, contribute to open source, and writ
 
 MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](https://www.nitt.edu/) · Ex-PwC US Advisory, Wipro, Polygon
 
-[Substack](https://okxint.substack.com) · [Twitter/X](https://twitter.com/okxint) · cashmein.eth@gmail.com
+[Substack](https://thedailysignal.substack.com/) · [Twitter/X](https://twitter.com/cashmein10) · ashwinchittrarasu@gmail.com
 
 ---
 
