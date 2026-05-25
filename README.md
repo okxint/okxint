@@ -37,15 +37,19 @@ Recent pieces:
 
 Shipped code to production at:
 
-- **[PostHog](https://github.com/PostHog/posthog)** — Cohort filter copy fix, is_set null values bug fix, between/datepicker UI fix (3 open PRs)
-- **[Immich](https://github.com/immich-app/immich)** — Substring matching for person name search (merged)
-- **[Actual Budget](https://github.com/actualbudget/actual)** — Preserving schedule link when merging transactions (merged)
-- **[wasp-lang](https://github.com/wasp-lang/wasp)** — Auth pills border style fix (merged)
+- **[Immich](https://github.com/immich-app/immich)** ⭐ 102k — Substring matching for person name search (merged)
+- **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** ⭐ 79k — Handle non-string values in Postman collection import (merged)
+- **[Plane](https://github.com/makeplane/plane)** ⭐ 50k — Strip whitespace from instance configuration values (merged)
+- **[Directus](https://github.com/directus/directus)** ⭐ 36k — Deduplicate aggregate count requests on content navigation (merged)
+- **[PostHog](https://github.com/PostHog/posthog)** ⭐ 35k — LLM analytics error state fix, web analytics Tailwind prefix fix (2 merged)
+- **[Actual Budget](https://github.com/actualbudget/actual)** ⭐ 27k — Preserve schedule link when merging transactions (merged)
+- **[SurfSense](https://github.com/MODSetter/SurfSense)** ⭐ 14k — Memoize formatRelativeTime in thread list (merged)
+- **[wasp-lang](https://github.com/wasp-lang/wasp)** ⭐ 18k — Auth pills border style fix (merged)
 - **[melonJS](https://github.com/melonjs/melonJS)** — Turbo dependency bump (merged)
 - **[llm-d-prism](https://github.com/llm-d/llm-d-prism)** — Documentation fix (merged)
 - **[KanaDojo](https://github.com/lingdojo/kana-dojo)** — Trivia question and Japanese proverb additions (2 merged)
 
-Also contributed to: [Directus](https://github.com/directus/directus) · [Vercel AI SDK](https://github.com/vercel/ai) · [Dify](https://github.com/langgenius/dify) · [Plane](https://github.com/makeplane/plane)
+Open PRs: [shadcn-ui/ui](https://github.com/shadcn-ui/ui) ⭐ 115k · [Hoppscotch](https://github.com/hoppscotch/hoppscotch) ⭐ 79k · [Grafana](https://github.com/grafana/grafana) ⭐ 74k
 
 ---
 
