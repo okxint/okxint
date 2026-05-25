@@ -11,7 +11,7 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 #### What I'm Working On
 
 - Scaling **[The Daily Signal](https://github.com/okxint/today-i-learned)** — in-depth analysis published every other day, weekly Substack roundups
-- Contributing to **PostHog**, **Immich**, **Actual Budget**, and **wasp-lang** — 8 merged PRs + 3 open across 7 repos
+- Contributing to **Immich**, **Hoppscotch**, **Plane**, **Directus**, **PostHog**, and more — 14 merged PRs across 11 repos, 3 open PRs in shadcn-ui, Hoppscotch, and Grafana
 - Building **[twitter-agent](https://github.com/okxint/twitter-agent)** — AI content pipeline: Reddit scraping, synthesis, automated publishing
 
 ---
@@ -27,9 +27,9 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 **[The Daily Signal](https://github.com/okxint/today-i-learned)** — In-depth analysis publication covering AI, crypto, business, F1, soccer, space, and product management. Each piece synthesizes 5-12 sources with an original take. No summaries, no fluff.
 
 Recent pieces:
-- [Wall Street Correction & the Stagflation Question](https://github.com/okxint/today-i-learned/blob/main/business/wall-street-correction-iran-oil-shock-2026.md) — Iran, oil at $110, and the Fed's no-win scenario
-- [Antonelli Wins Suzuka](https://github.com/okxint/today-i-learned/blob/main/f1/antonelli-wins-suzuka-2026.md) — youngest championship leader ever at 19
-- [Anthropic Sued the Pentagon](https://github.com/okxint/today-i-learned/blob/main/ai/anthropic-sues-pentagon.md) — the most important AI governance story of 2026
+- [UCL Final: PSG vs Arsenal](https://github.com/okxint/today-i-learned/blob/main/soccer/ucl-final-psg-arsenal-preview-2026.md) — Budapest, May 31. The case for both sides
+- [How TVK Won Tamil Nadu](https://github.com/okxint/today-i-learned/blob/main/business/tamil-nadu-elections-tvk-vijay-2026.md) — Vijay's party broke a 60-year duopoly in its debut election
+- [Apple Q2 2026](https://github.com/okxint/today-i-learned/blob/main/business/apple-q2-2026-earnings.md) — $111B revenue, iPhone still growing, Services at a record
 
 ---
 
@@ -69,4 +69,4 @@ Open PRs: [shadcn-ui/ui](https://github.com/shadcn-ui/ui) ⭐ 115k · [Hoppscotc
 
 ---
 
-Open to PM opportunities — [cashmein.eth@gmail.com](mailto:cashmein.eth@gmail.com)
+Open to AI PM and GTM Tech roles — [ashwinchittrarasu@gmail.com](mailto:ashwinchittrarasu@gmail.com)
