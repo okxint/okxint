@@ -11,7 +11,7 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 #### What I'm Working On
 
 - Scaling **[The Daily Signal](https://github.com/okxint/today-i-learned)** — in-depth analysis published every other day, weekly Substack roundups
-- Contributing to **Immich**, **Hoppscotch**, **Plane**, **Directus**, **PostHog**, and more — 14 merged PRs across 11 repos, 3 open PRs in shadcn-ui, Hoppscotch, and Grafana
+- Contributing to **Immich**, **Hoppscotch**, **Plane**, **Directus**, **PostHog**, **tldraw**, and more — 14 merged PRs across 11 repos, 8 open PRs across shadcn-ui, Hoppscotch, Grafana, and tldraw
 - Building **[twitter-agent](https://github.com/okxint/twitter-agent)** — AI content pipeline: Reddit scraping, synthesis, automated publishing
 
 ---
@@ -27,9 +27,9 @@ MBA from [IIM Kozhikode](https://www.iimk.ac.in/) · B.Tech from [NIT Trichy](ht
 **[The Daily Signal](https://github.com/okxint/today-i-learned)** — In-depth analysis publication covering AI, crypto, business, F1, soccer, space, and product management. Each piece synthesizes 5-12 sources with an original take. No summaries, no fluff.
 
 Recent pieces:
+- [The AI PM gap](https://github.com/okxint/today-i-learned/blob/main/ai/ai-pm-gap-what-product-managers-get-wrong.md) — what most PMs still don't understand about building with LLMs
+- [Arsenal won the league](https://github.com/okxint/today-i-learned/blob/main/soccer/arsenal-2026-season-deep-dive.md) — deep dive on the season that ended a 22-year wait
 - [UCL Final: PSG vs Arsenal](https://github.com/okxint/today-i-learned/blob/main/soccer/ucl-final-psg-arsenal-preview-2026.md) — Budapest, May 31. The case for both sides
-- [How TVK Won Tamil Nadu](https://github.com/okxint/today-i-learned/blob/main/business/tamil-nadu-elections-tvk-vijay-2026.md) — Vijay's party broke a 60-year duopoly in its debut election
-- [Apple Q2 2026](https://github.com/okxint/today-i-learned/blob/main/business/apple-q2-2026-earnings.md) — $111B revenue, iPhone still growing, Services at a record
 
 ---
 
@@ -49,7 +49,7 @@ Shipped code to production at:
 - **[llm-d-prism](https://github.com/llm-d/llm-d-prism)** — Documentation fix (merged)
 - **[KanaDojo](https://github.com/lingdojo/kana-dojo)** — Trivia question and Japanese proverb additions (2 merged)
 
-Open PRs: [shadcn-ui/ui](https://github.com/shadcn-ui/ui) ⭐ 115k · [Hoppscotch](https://github.com/hoppscotch/hoppscotch) ⭐ 79k · [Grafana](https://github.com/grafana/grafana) ⭐ 74k
+Open PRs: [tldraw](https://github.com/tldraw/tldraw) ⭐ 47k · [shadcn-ui/ui](https://github.com/shadcn-ui/ui) ⭐ 115k · [Grafana](https://github.com/grafana/grafana) ⭐ 74k · [Hoppscotch](https://github.com/hoppscotch/hoppscotch) ⭐ 79k
 
 ---
 
