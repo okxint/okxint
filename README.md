@@ -20,7 +20,7 @@ MBA · [IIM Kozhikode](https://www.iimk.ac.in/) &nbsp;|&nbsp; B.Tech · [NIT Tri
 
 I fix real bugs in production codebases. Each PR is a shipped change with a clear problem → root cause → fix arc.
 
-**[PostHog](https://github.com/PostHog/posthog)** ⭐ 35k &nbsp;— 7 merged, actively contributing
+**[PostHog](https://github.com/PostHog/posthog)** ⭐ 35k &nbsp;— 8 merged, actively contributing
 
 Notable fixes:
 - [Race condition on new feature flag creation](https://github.com/PostHog/posthog/pull/65356) — `afterMount` fired two concurrent API calls; fixed with a cache-first resolver so the second call only runs if the first hasn't populated state yet
@@ -28,6 +28,7 @@ Notable fixes:
 - [SQL editor Y-axis settings isolation](https://github.com/PostHog/posthog/pull/55753) — settings object was shared across series; scoped per-series key so changing one doesn't affect others
 - [Insights legend tag suppression](https://github.com/PostHog/posthog/pull/58946) — math/SQL tag showed even when the series had a custom name set
 - [Dialog form isolation](https://github.com/PostHog/posthog/pull/62113) — nested dialogs shared a kea logic key; each instance now gets a UUID so form state doesn't bleed across
+- [CLI scope: exclude llm_gateway from read-only preset](https://github.com/PostHog/posthog/pull/67252) — privileged scope in read-only preset caused silent 400s; excluded it and surfaced `invalid_scope` errors to the user
 
 **[Immich](https://github.com/immich-app/immich)** ⭐ 102k — Substring matching for person name search
 
