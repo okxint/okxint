@@ -52,13 +52,59 @@ Open PRs in review: [PostHog](https://github.com/PostHog/posthog/pulls/okxint) (
 
 #### Projects
 
+**[Farmaze](https://farmaze.com)** — AI-powered B2B produce procurement platform for restaurants
+Full-stack production system: restaurants send one WhatsApp message and the platform handles everything — order parsing, multi-supplier routing, confirmations, and weekly analytics. Built across 8 services.
+
+*Platform features:*
+- **WhatsApp Ordering** — chefs send natural language orders via WhatsApp; AI parses items, quantities, and units with fuzzy matching against live product catalog
+- **Voice Note Processing** — Whisper transcription pipeline converts voice orders to structured order items
+- **Image/OCR Ordering** — GPT-4o Vision reads handwritten order sheets and WhatsApp photos; extracts line items automatically
+- **Multi-Supplier Order Splitting** — procurement engine splits a single order across N suppliers based on category mappings, pricing, and delivery schedules; generates one message per supplier
+- **Supplier Forwarding** — confirmed orders auto-forwarded to each supplier via WhatsApp with delivery instructions; tracks message IDs for reply matching
+- **AI Product Suggestions** — personalized reorder recommendations surfaced proactively based on order history and consumption patterns
+- **Morning Follow-Up Agent** — daily ops briefing pushed to the admin team: pending confirmations, revenue, issue flags
+- **Supplier Report Cards** — weekly automated reports scoring each supplier on fill rate, delivery time, and confirmation latency
+- **Demand Forecasting** — proactive push alerts to clients when predicted consumption is about to exceed stock
+
+*Agents built:*
+- **Order Agent** — natural language → structured order → backend creation, with session-based confirmation flow
+- **Supplier Routing Agent** — maps order line items to the right supplier per restaurant's supplier config and category priorities
+- **Supplier Onboarding Agent** — parses a freeform supplier list message and extracts structured supplier profiles (name, phone, categories, delivery days)
+- **Forecast Push Agent** — runs consumption trend models and pushes WhatsApp alerts before a restaurant runs out of key items
+- **MCP Admin Agent** — 23-tool MCP server for Claude Desktop; lets ops team query clients, products, orders, analytics, and run OCR via natural language in Cursor/Claude
+  - `farmaze_find_client`, `farmaze_list_orders`, `farmaze_create_smart_order`, `farmaze_validate_order`, `farmaze_finalize_order`
+  - `farmaze_get_insights` (overview / spend / volume / consumption)
+  - `farmaze_extract_text_from_image` (GPT-4o Vision), `farmaze_extract_products_from_text`
+  - `daily-ops` prompt (morning briefing), `client-health` prompt (per-client procurement analysis)
+
+*Stack:* `Go` `PostgreSQL` `Node.js` `TypeScript` `Next.js` `React` `Redis` `Meta WhatsApp Cloud API` `GPT-4o` `MCP SDK` `Docker` `JWT RSA256` `Supabase`
+
+---
+
+**[gtm-intel](https://github.com/okxint/gtm-intel)**
+Pre-call technical intelligence CLI for GTM and forward-deployed teams. Give it a GitHub org, get a sales-ready brief in seconds — stack, engineering velocity, pain points, integration angles, and conversation starters. Powered by GitHub API + Claude.
+
+```
+$ npx gtm-intel vercel
+→ Company Snapshot · Tech Stack · Engineering Velocity
+→ Pain Points (engineering signal → business impact)
+→ Integration Opportunities · Conversation Starters · TL;DR
+```
+`TypeScript` `Claude API` `GitHub API` `CLI`
+
+---
+
 **[Product Teardown](https://pm-teardown.vercel.app)**
 Drop in a product name, get a 5,000-word PM-grade analysis. Parallel scraping across 8+ sources, user journey mapping, drop-off identification, RICE-prioritised solutions. Built to answer "what would a real PM do with this product?"
 `Next.js` `TypeScript` `RAG` `Streaming API`
 
+---
+
 **[twitter-agent](https://github.com/okxint/twitter-agent)**
 End-to-end AI content pipeline. Scrapes Reddit for trending discussions, synthesises through Claude, posts original tweets on a schedule. Data collection → generation → publishing, fully automated.
 `TypeScript` `Node.js` `Claude API` `Prompt Engineering`
+
+---
 
 **[The Daily Signal](https://github.com/okxint/today-i-learned)**
 In-depth publication across AI, crypto, business, F1, soccer, and product. No summaries — every piece has an original take section built from 5–12 sources.
@@ -82,7 +128,7 @@ Recent pieces:
 
 #### Stack
 
-`TypeScript` `Python` `React` `Next.js` `Node.js` `Claude API` `RAG` `Prompt Engineering` `SQL` `Tailwind CSS`
+`TypeScript` `Go` `Python` `React` `Next.js` `Node.js` `Claude API` `GPT-4o` `RAG` `Prompt Engineering` `PostgreSQL` `Redis` `Docker` `Tailwind CSS`
 
 ---
 
