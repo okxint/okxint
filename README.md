@@ -10,7 +10,7 @@ MBA · [IIM Kozhikode](https://www.iimk.ac.in/) &nbsp;|&nbsp; B.Tech · [NIT Tri
 
 #### Projects
 
-**[Farmaze](https://farmaze.com)** — AI procurement platform for B2B restaurants
+**[Farmaze](https://farmaze.com)** - AI procurement platform for B2B restaurants
 
 Restaurants send one WhatsApp message. The platform parses the order, splits it across suppliers, confirms delivery, and reports back. Built across 8 services in production.
 
@@ -27,7 +27,7 @@ Agents: order parser, supplier router, supplier onboarding, demand forecast, MCP
 
 ---
 
-**[gtm-intel](https://github.com/okxint/gtm-intel)** — Pre-call technical intelligence CLI for GTM teams
+**[gtm-intel](https://github.com/okxint/gtm-intel)** - Pre-call technical intelligence CLI for GTM teams
 
 Give it a GitHub org, get a sales-ready brief: stack, engineering velocity, open bugs translated to business impact, integration angles, and conversation starters. Powered by GitHub API + Claude.
 
@@ -35,7 +35,7 @@ Give it a GitHub org, get a sales-ready brief: stack, engineering velocity, open
 
 ---
 
-**[Product Teardown](https://pm-teardown.vercel.app)** — PM-grade product analysis on demand
+**[Product Teardown](https://pm-teardown.vercel.app)** - PM-grade product analysis on demand
 
 Drop in a product name, get a structured analysis: parallel scraping across 8+ sources, user journey mapping, drop-off identification, RICE-prioritised feature recommendations.
 
@@ -43,7 +43,7 @@ Drop in a product name, get a structured analysis: parallel scraping across 8+ s
 
 ---
 
-**[twitter-agent](https://github.com/okxint/twitter-agent)** — Automated content pipeline
+**[twitter-agent](https://github.com/okxint/twitter-agent)** - Automated content pipeline
 
 Reddit scraping to Claude synthesis to scheduled publishing. Fully automated: data collection, generation, and posting.
 
@@ -51,7 +51,7 @@ Reddit scraping to Claude synthesis to scheduled publishing. Fully automated: da
 
 ---
 
-#### Open Source — 20+ Merged PRs
+#### Open Source - 20+ Merged PRs
 
 **[PostHog](https://github.com/PostHog/posthog)** 35k stars, 8 merged
 
@@ -99,3 +99,4 @@ Open PRs in review: [tldraw](https://github.com/tldraw/tldraw) 47k stars · [sha
 ---
 
 Open to remote AI PM and GTM Tech roles - [ashwinchittrarasu@gmail.com](mailto:ashwinchittrarasu@gmail.com)
+
